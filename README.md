@@ -2,6 +2,22 @@
 
 A FastAPI-based application managed with uv.
 
+## Prerequisites
+
+### Installing uv
+
+This project uses [uv](https://docs.astral.sh/uv/) as the package manager. To install uv, follow the [official installation instructions](https://docs.astral.sh/uv/getting-started/installation/).
+
+Quick install (macOS/Linux):
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Quick install (Windows):
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
 ## Setup
 
 Install dependencies using uv:

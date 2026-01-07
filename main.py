@@ -1,6 +1,9 @@
 from fastapi import FastAPI
+from routers import chat
 
 app = FastAPI(title="Hibiki Engine")
+
+app.include_router(router=chat.router, prefix="/chat", tags=["chat"])
 
 
 @app.get("/")
